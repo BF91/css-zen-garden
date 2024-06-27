@@ -1,0 +1,20 @@
+/*This is my frst comment and I hope it work*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+h1 {
+    /*size del font*/
+    font-size: 40px;
+    color:blueviolet;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    color:red;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
