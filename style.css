@@ -18,3 +18,21 @@ body{
     font-weight: <weight>;
     font-style: normal;
 }
+div #zen-preamble {
+    background-color: aquamarine;
+    border: 6px solid green;
+    margin: 2px;
+    padding: 20px;
+}
+h3 {
+    font-size: medium;
+    color: orange;
+    font-family: Verdana;
+    font-style: italic;
+}
+div #design-selection {
+    background-color: yellow;
+    border: 6px solid rgb(11, 11, 104);
+    margin: 40px;
+    padding: 20px;
+}
