@@ -35,5 +35,8 @@ div #design-selection {
     border: 6px solid rgb(11, 11, 104);
     margin: 40px;
     padding: 20px;
-    background-image: url(img/20230824.jpg);
+    background-repeat: no-repeat;
+    background-position: right, center, left;
+    background-size: 300px 300px;
+    background-image: url(img/380998-PC2FOX-629.jpg), url(img/20230824.jpg), linear-gradient(lightblue, blueviolet);
 }
