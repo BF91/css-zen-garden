@@ -19,8 +19,8 @@ body{
     font-style: normal;
 }
 div #zen-preamble {
-    background-color: aquamarine;
-    border: 6px solid green;
+    background-image: linear-gradient(to right, green, yellow, orange, red);
+    border: 6px solid gray;
     margin: 2px;
     padding: 20px;
 }
@@ -31,8 +31,9 @@ h3 {
     font-style: italic;
 }
 div #design-selection {
-    background-color: yellow;
+    /* background-color: yellow; */
     border: 6px solid rgb(11, 11, 104);
     margin: 40px;
     padding: 20px;
+    background-image: url(img/20230824.jpg);
 }
