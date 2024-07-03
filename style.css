@@ -39,3 +39,10 @@ div #design-selection {
     /* background-size: 300px 300px; */
     background-image: url(img/Panasonic_pompecalore.png), linear-gradient(lightblue, blueviolet);
 }
+[href *="mezzoblue"]{
+    color: yellowgreen;
+    padding: 100px;
+}
+*  /* significa che tutto avrà la caratteristica specificata */ { 
+    padding-left: 40px;
+}
