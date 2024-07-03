@@ -46,13 +46,20 @@ div #design-selection {
 html{
     border: 15px solid green;
 }
-
 *{ 
-    border: 5px solid red;
-    margin: unset;
-    padding-left: 40px;
+    /* margin: unset; */
+    padding-left: 40px yellow;
 }
 /* Selector ID */
-zzen-supporting{
+#zen-supporting{
+    border: 1px solid lightpink;
     background-color: aquamarine;
+}
+.summary{
+    color: burlywood;
+    padding: 20px;
+}
+a.zen-validate-html,a[href="http://www.mezzoblue.com/"]{
+    color: blueviolet;
+    font-size: 40px;
 }
