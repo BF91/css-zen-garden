@@ -12,12 +12,12 @@ h1 {
 h2 {
     color:red;
 }
-body{
+/* body{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-}
+} */
 div #zen-preamble {
     background-image: linear-gradient(to right, green, yellow, orange, red);
     border: 6px solid gray;
@@ -43,6 +43,16 @@ div #design-selection {
     color: yellowgreen;
     padding: 100px;
 }
-*  /* significa che tutto avrà la caratteristica specificata */ { 
+html{
+    border: 15px solid green;
+}
+
+*{ 
+    border: 5px solid red;
+    margin: unset;
     padding-left: 40px;
+}
+/* Selector ID */
+zzen-supporting{
+    background-color: aquamarine;
 }
