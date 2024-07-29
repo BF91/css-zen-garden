@@ -1,34 +1,28 @@
-/* css Zen Garden default style v1.02 */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
-
-/* This file based on 'Tranquille' by Dave Shea */
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
-/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
-
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
-
-
-/* basic elements */
 body{
+    background: url(img/zen-bg.jpg);
     margin: unset;
     padding: 200px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
-h1 {
+
+h1,h2,h3,h4,h5,h6{
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-size: 50px
+        font-style: normal;
+        color: dimgray;
+        padding: 20px;
+      }
+
+section.intro header>h1 {
     font-size: 70px;
-    font-family: 'indie flooer', cursive;
+    color: sandybrown;
     text-align: center;
     padding: 20px;
-    background: -webkit-linear-gradient(gray, sandybrown);
-        -webkit-background-clip: text;
-        -webkit-animation-fill-color: trasparent;
-}
-
-h2,h3,h4,h5,h6{
-    font-size: 30px;
-    font-family: 'indie flooer', cursive;
-    color: dimgray;
+    background: -webkit-linear-gradient(rgb(76, 201, 243), #fff);
+    /* -webkit-background-clip: text; */
+    /* -webkit-animation-fill-color: trasparent; */
 }
 
 p, footer{
@@ -38,5 +32,28 @@ p, footer{
 
 p::first-letter{
     font-size: 40px;
-    font-family: 'indie flooer', cursive;
+    font-family: "Indie Flower", cursive;
+}
+
+div.page-wrapper{
+    background: #fff;
+    opacity: 0.7;
+}
+
+div.summary{
+    padding: 10px;
+    background: gray;
+}
+
+a:link{
+    color: #198430;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: purple;
 }
